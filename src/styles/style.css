@@ -7,7 +7,7 @@
 body{
     margin: auto;
     width: 90%;
-    background-image: url(img/bluecv.jpg);
+    background-image: url(../img/bluecv.jpg);
     color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,9 +52,11 @@ body{
 }
 
 .picture{
-    width: 200px;
+    width: 300px;
     height: 400px;
     margin-top: -44px;
+    object-fit: cover;
+    background-color: black;
 }
 .raya{
     width: 900px;
